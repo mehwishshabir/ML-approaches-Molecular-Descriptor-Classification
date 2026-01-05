@@ -5,9 +5,6 @@ This repository presents a comparative study of **Machine Learning (ML)** algori
 
 The core focus was on balancing model complexity with predictive accuracy and understanding the impact of descriptor pre-processing on classification performance.
 
----
-
-## 🛠️ Methodology 
 * **Platform:** WEKA Explorer (GUI-based Machine Learning)
 * **Dataset:** `CDD_2D.arff` (Molecular Descriptors)
 * **Pre-processing:** Attributes with high zero-variance were removed to streamline the models, improve computational efficiency, and mitigate the risk of overfitting.
@@ -25,7 +22,7 @@ I implemented and tuned four distinct ML paradigms:
 4.  **Artificial Neural Network (Multilayer Perceptron):** Tuned via GUI for Epochs, Learning Rate, and Momentum.
    
 ---
-## 📊 Key Findings
+## Key Findings
 Based on the experimental results, **KNN** emerged as the most effective model for this specific molecular dataset.
 
 ### Observations:
@@ -34,7 +31,6 @@ Based on the experimental results, **KNN** emerged as the most effective model f
 * **Computational Cost:** The Artificial Neural Network was the most computationally intensive approach while showing higher sensitivity to false positives during parameter tuning.
 
 ---
-
 ## 📂 Repository Contents
 * `Report/`: Contains the full project documentation (PDF).
 ---
